@@ -79,5 +79,15 @@ namespace WorkWearOnFabric.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IMG_20240416_225407_279_transformed__1_ {
+            get {
+                object obj = ResourceManager.GetObject("IMG_20240416_225407_279-transformed (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
