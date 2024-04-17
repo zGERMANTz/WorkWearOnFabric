@@ -129,7 +129,7 @@ namespace WorkWearOnFabric
             }
             if (isUserExists())
                 return;
-
+            //ЗАКИДЫВАЕМ ЗНАЧЕНИЯ ИЗ ТЕКСБОКС В БД
             DB db = new DB();
             MySqlCommand command = new MySqlCommand("INSERT INTO `users` (`login`, `pass`, `name`, `surname`, `role`) VALUES (@login, @pass, @name, @surname, @role)", db.getConnection());
 
